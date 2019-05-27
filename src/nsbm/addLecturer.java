@@ -215,7 +215,7 @@ public class addLecturer extends javax.swing.JFrame {
 
                     int rs = stm.executeUpdate();
                     if (rs>0){
-                        JOptionPane.showMessageDialog(this, "Added Successfully");
+                        //JOptionPane.showMessageDialog(this, "Added Successfully");
                     }
                     //String comArr[] = {"0","0","0"};            //String x = "cs"+i+"txt";
                 }
@@ -235,7 +235,7 @@ public class addLecturer extends javax.swing.JFrame {
 
                     int rs = stm.executeUpdate();
                     if (rs>0){
-                        JOptionPane.showMessageDialog(this, "Added Successfully");
+                        //JOptionPane.showMessageDialog(this, "Added Successfully");
                     }
                     //String comArr[] = {"0","0","0"};            //String x = "cs"+i+"txt";
                 }
@@ -255,7 +255,7 @@ public class addLecturer extends javax.swing.JFrame {
 
                     int rs = stm.executeUpdate();
                     if (rs>0){
-                        JOptionPane.showMessageDialog(this, "Added Successfully");
+                        //JOptionPane.showMessageDialog(this, "Added Successfully");
                     }
                     //String comArr[] = {"0","0","0"};            //String x = "cs"+i+"txt";
                 }
@@ -264,7 +264,7 @@ public class addLecturer extends javax.swing.JFrame {
                 }
         dispose();
         addLecturer frame = new addLecturer();
-        home p = new home();
+        adminHome p = new adminHome();
         p.setVisible(true);
 
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -272,7 +272,7 @@ public class addLecturer extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         dispose();
         addLecturer frame = new addLecturer();
-        home p = new home();
+        adminHome p = new adminHome();
         p.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 

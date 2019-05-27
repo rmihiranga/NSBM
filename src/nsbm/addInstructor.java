@@ -242,7 +242,7 @@ public class addInstructor extends javax.swing.JFrame {
 
                     int rs = stm.executeUpdate();
                     if (rs>0){
-                        JOptionPane.showMessageDialog(this, "Added Successfully");
+                        //JOptionPane.showMessageDialog(this, "Added Successfully");
                     }
                     //String comArr[] = {"0","0","0"};            //String x = "cs"+i+"txt";
                 }
@@ -262,7 +262,7 @@ public class addInstructor extends javax.swing.JFrame {
 
                     int rs = stm.executeUpdate();
                     if (rs>0){
-                        JOptionPane.showMessageDialog(this, "Added Successfully");
+                        //JOptionPane.showMessageDialog(this, "Added Successfully");
                     }
                     //String comArr[] = {"0","0","0"};            //String x = "cs"+i+"txt";
                 }
@@ -282,7 +282,7 @@ public class addInstructor extends javax.swing.JFrame {
 
                     int rs = stm.executeUpdate();
                     if (rs>0){
-                        JOptionPane.showMessageDialog(this, "Added Successfully");
+                        //JOptionPane.showMessageDialog(this, "Added Successfully");
                     }
                     //String comArr[] = {"0","0","0"};            //String x = "cs"+i+"txt";
                 }
@@ -291,7 +291,7 @@ public class addInstructor extends javax.swing.JFrame {
                 }
         dispose();
         addInstructor frame = new addInstructor();
-        home p = new home();
+        adminHome p = new adminHome();
         p.setVisible(true);
         
         
@@ -300,7 +300,7 @@ public class addInstructor extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         dispose();
         addInstructor frame = new addInstructor();
-        home p = new home();
+        adminHome p = new adminHome();
         p.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
